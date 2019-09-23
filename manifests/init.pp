@@ -23,6 +23,7 @@ class clamav (
   $shell                        = $clamav::params::shell,
   $group                        = $clamav::params::group,
   $groups                       = $clamav::params::groups,
+  $root_group                   = $clamav::params::root_group,
 
   $clamd_package                = $clamav::params::clamd_package,
   $clamd_version                = $clamav::params::clamd_version,
